@@ -3,7 +3,8 @@ The Finance Language Analyzer is an analytics engine that analyzes news articles
 
 # Developer 
 - Ngwan Teng Wei 
-Using sgnlp module downloaded from here 
+
+Using sgnlp module downloaded from here \
 https://aisingapore.org/aiproducts/nlp-hub/?_ga=2.40195622.565862378.1675670806-1698464324.1670228435
 
 ## Documentation 
@@ -131,3 +132,5 @@ npx webpack --config webpack.config.js --cache
 # to collect and transfer to static dir 
 python manage.py collectstatic
 ```
+
+Reuploaded after first push failed to upload everything 
