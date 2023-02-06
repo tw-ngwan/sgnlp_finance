@@ -1,0 +1,17 @@
+{% load render_bundle from webpack_loader %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Django-React App</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'gradient-background-with-waves.css' %}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" type="text/css" href = "{% static 'fonts.css' %}">
+      </head>
+    <body>
+        <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+        <div id="root"></div>
+    </body>
+    <script src="{% static 'index.bundle.js' %}"></script>
+</html>
