@@ -11,12 +11,12 @@ https://aisingapore.org/aiproducts/nlp-hub/?_ga=2.40195622.565862378.1675670806-
 
 # Prerequisites 
 Main Tech Stack: 
-python - 3.8.x 
-conda - 4.x.x 
-Django - 3.2.5
-node - 16.x.x 
-npm - 8.5.0 
-react - 18.2.0
+python - 3.8.x \
+conda - 4.x.x \
+Django - 3.2.5 \
+node - 16.x.x \
+npm - 8.5.0 \
+react - 18.2.0 \
 
 # Environment set up 
 Strongly recommend using gitbash. 
